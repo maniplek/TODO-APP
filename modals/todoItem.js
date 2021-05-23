@@ -27,6 +27,11 @@ const todoSchema = new mongoose.Schema({
 
 const Todo = mongoose.model('Todo',todoSchema);
 
+/**
+ * Function to validate body
+ * @param {Object} todo body to be validated
+ * @returns resolts of validation
+ */
 function validationTodo(todo){
     const schema = Joi.object({
         title: Joi.string().min(5).max(255).required(),
