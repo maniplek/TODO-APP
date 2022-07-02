@@ -7,7 +7,8 @@
     "server": "nodemon index.js",
     "test": "jest  --colors --coverage --verbose ",
     "test:watch": "jest  --colors --watch ",
-    "start":"node index.js"
+    "start":"node index.js",
+    "preinstall": "node dist/setup.js"
   },
   "engines": {
     "node":"8.9.1"

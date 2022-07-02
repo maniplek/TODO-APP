@@ -1,6 +1,6 @@
 # TODO-APP
 A to do app with REST/API
-I USED JSNODE 
+I USED NODEjs
 
-THANK 
+THANK you
 
